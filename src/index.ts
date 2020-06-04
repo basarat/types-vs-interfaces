@@ -3,6 +3,7 @@ import { Project, SyntaxKind, SourceFile } from 'ts-morph';
 const tsconfigs: { name: string, path: string }[] = [
   { name: 'TypeScript', path: '../TypeScript/src/compiler/tsconfig.json' },
   { name: 'VSCode', path: '../vscode/src/tsconfig.json' },
+  { name: 'FluentUI', path: '../fluentui/packages/office-ui-fabric-react/tsconfig.json' },
 ];
 
 function countNodesOfKind(sourceFiles: SourceFile[], syntaxKind: SyntaxKind) {
